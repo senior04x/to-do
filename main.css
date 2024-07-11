@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+.container {
+  padding-right: 50px;
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+    padding: 0;
+  }
+.title {
+  text-align: start;
+}
+#add {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url("./img/add.png");
+  background-color: transparent;
+  &:hover {
+    transform: scale(1.07);
+  }
+}
+.box {
+  display: flex;
+  gap: 8px;
+}
+#edit {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url("./img/edit.png");
+  background-color: transparent;
+  &:hover {
+    transform: scale(1.07);
+  }
+}
+#new-item {
+  border: 2px solid #fa1228;
+  background-color: #fff;
+  width: 200px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  outline: none;
+}
+.todo-list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.result-item {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  height: auto;
+  width: 280px;
+  margin-bottom: 5px;
+}
+
+.button-case{
+    display: flex;
+    gap: 4px;
+}
+.delete-button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-image: url("./img/trash.png");
+  background-color: transparent;
+  &:hover {
+    transform: scale(1.07);
+  }
+}
+.edit-button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-image: url("./img/pencil.png");
+  background-color: transparent;
+  &:hover {
+    transform: scale(1.07);
+  }
+}
