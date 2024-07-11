@@ -1,5 +1,5 @@
 let editing;
-const newArray = []
+const newArray = [];
 function addItem() {
   const input = document.getElementById("new-item");
   const task = input.value;
@@ -36,10 +36,10 @@ function addItem() {
   list.appendChild(li);
   clearField();
   const newObj = {
-    text: task
-  }
-  newArray.push(newObj)
-  console.log("Boshlang'ich to do ",newArray)
+    text: task,
+  };
+  newArray.push(newObj);
+  console.log("Boshlang'ich to do ", newArray);
 }
 
 function createButton(text, onclick) {
@@ -48,17 +48,17 @@ function createButton(text, onclick) {
   button.onclick = onclick;
   return button;
 }
-const newArray2 = []
+const newArray2 = [];
 function change() {
   const input = document.getElementById("new-item");
   const task = input.value;
   editing.innerText = task;
   clearField();
   const newObj2 = {
-    text: task
-  }
-  newArray2.push(newObj2)
-  console.log("O'zgartirilgan to do ",newArray2)
+    text: task,
+  };
+  newArray2.push(newObj2);
+  console.log("O'zgartirilgan to do ", newArray2);
 }
 
 function clearField() {

@@ -12,8 +12,8 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 ul {
-    padding: 0;
-  }
+  padding: 0;
+}
 .title {
   text-align: start;
 }
@@ -76,9 +76,9 @@ ul {
   margin-bottom: 5px;
 }
 
-.button-case{
-    display: flex;
-    gap: 4px;
+.button-case {
+  display: flex;
+  gap: 4px;
 }
 .delete-button {
   width: 20px;
